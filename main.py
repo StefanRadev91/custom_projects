@@ -1,4 +1,3 @@
-# Shared drink recipes
 drink_recipes = {
     "espresso": {
         "ingredients": {
@@ -25,7 +24,6 @@ drink_recipes = {
     }
 }
 
-# Initial resources
 resources = {
     "water": 300,
     "milk": 200,
@@ -111,7 +109,7 @@ def coffee_machine():
         else:
             print("Unable to make the drink due to insufficient resources.")
         
-        print_report(resources)  # Show resources after each operation
+        print_report(resources)  
 
-# Example usage
+
 coffee_machine()
