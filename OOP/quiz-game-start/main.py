@@ -13,3 +13,8 @@ quiz = QuizBrain(question_bank)
 while quiz.still_have_questions():
     quiz.next_question()
 
+quiz.final_score()
+
+
+
+
